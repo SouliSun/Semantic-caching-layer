@@ -58,7 +58,7 @@ Evaluated against a 400-sample pairwise dataset including paraphrases and lexica
 ### 1. Installation
 ```powershell
 # Clone repo & navigate
-git clone https://github.com/your-username/SemanticCachingLayer.git
+git clone https://github.com/SouliSun/SemanticCachingLayer.git
 cd SemanticCachingLayer
 
 # Activate venv & install
