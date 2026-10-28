@@ -1,0 +1,6358 @@
+[
+  {
+    "sample_id": "SC_0001",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the capital of Japan?",
+    "query_b": "Which city serves as Japan's capital?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Both ask for Japan's capital city.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0002",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How many days are in a leap year?",
+    "query_b": "number of days in a leap yr?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same count requested; second is terse/informal.",
+    "condition": null,
+    "tags": [
+      "informal",
+      "abbreviation"
+    ]
+  },
+  {
+    "sample_id": "SC_0003",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I reset my Gmail password?",
+    "query_b": "I forgot my Gmail password. How can I get back into my account?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Both seek the Gmail password-recovery procedure.",
+    "condition": null,
+    "tags": [
+      "conversational",
+      "account-recovery"
+    ]
+  },
+  {
+    "sample_id": "SC_0004",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What does HTTP stand for?",
+    "query_b": "What's the full form of HTTP?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Both ask for the expansion of HTTP.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "tech"
+    ]
+  },
+  {
+    "sample_id": "SC_0005",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is photosynthesis?",
+    "query_b": "Can you explain how photosynthesis works in plants?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept explained; same answer content.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "science"
+    ]
+  },
+  {
+    "sample_id": "SC_0006",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the boiling point of water at sea level in Celsius?",
+    "query_b": "At what temp (C) does water boil at sea level?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact, same units and conditions.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "science"
+    ]
+  },
+  {
+    "sample_id": "SC_0007",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Who wrote Pride and Prejudice?",
+    "query_b": "Which author penned the novel Pride and Prejudice?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Both ask for the author of the same novel.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "literature"
+    ]
+  },
+  {
+    "sample_id": "SC_0008",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I convert a string to an integer in Python?",
+    "query_b": "python str to int conversion - how?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task in the same language.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0009",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the difference between a virus and a bacterium?",
+    "query_b": "How do viruses differ from bacteria?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same comparison requested.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "biology"
+    ]
+  },
+  {
+    "sample_id": "SC_0010",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How many continents are there?",
+    "query_b": "Could you tell me the total number of continents on Earth?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same count; second is more verbose.",
+    "condition": null,
+    "tags": [
+      "verbose",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0011",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is machine learning?",
+    "query_b": "can u explain what ML is",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Both ask for a definition of machine learning.",
+    "condition": null,
+    "tags": [
+      "informal",
+      "abbreviation",
+      "tech"
+    ]
+  },
+  {
+    "sample_id": "SC_0012",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I hard boil an egg?",
+    "query_b": "What's the best method for making hard-boiled eggs?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same cooking task.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0013",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the speed of light in a vacuum?",
+    "query_b": "How fast does light travel in vacuum?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same physical constant.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "physics"
+    ]
+  },
+  {
+    "sample_id": "SC_0014",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the largest planet in the solar system?",
+    "query_b": "Which planet is the biggest in our solar system?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact (Jupiter).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "astronomy"
+    ]
+  },
+  {
+    "sample_id": "SC_0015",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I undo the last commit in Git?",
+    "query_b": "I made a commit by mistake in git - how do I take it back?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Both seek ways to revert the latest commit.",
+    "condition": null,
+    "tags": [
+      "conversational",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0016",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the square root of 144?",
+    "query_b": "sqrt of 144?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same computation.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0017",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Why is the sky blue?",
+    "query_b": "What causes the sky to appear blue during the day?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same explanation (Rayleigh scattering).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "science"
+    ]
+  },
+  {
+    "sample_id": "SC_0018",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What's the chemical symbol for gold?",
+    "query_b": "Which symbol represents gold on the periodic table?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact (Au).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "chemistry"
+    ]
+  },
+  {
+    "sample_id": "SC_0019",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How many ounces are in a pound?",
+    "query_b": "1 lb equals how many oz?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same unit conversion.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "units"
+    ]
+  },
+  {
+    "sample_id": "SC_0020",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the meaning of the word 'ephemeral'?",
+    "query_b": "define ephemeral",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same definition request.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "vocabulary"
+    ]
+  },
+  {
+    "sample_id": "SC_0021",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I center a div in CSS?",
+    "query_b": "css how to center a div",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same CSS task.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0022",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the function of the mitochondria?",
+    "query_b": "What do mitochondria do in a cell?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same biological function.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "biology"
+    ]
+  },
+  {
+    "sample_id": "SC_0023",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Who painted the Mona Lisa?",
+    "query_b": "Which artist created the Mona Lisa?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same attribution.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "art"
+    ]
+  },
+  {
+    "sample_id": "SC_0024",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is GDP?",
+    "query_b": "Explain what Gross Domestic Product (GDP) is.",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept, abbreviation expanded.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "expansion",
+      "economics"
+    ]
+  },
+  {
+    "sample_id": "SC_0025",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I make a pivot table in Excel?",
+    "query_b": "Steps to create a pivot table in MS Excel",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same Excel task.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "office"
+    ]
+  },
+  {
+    "sample_id": "SC_0026",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the tallest mountain on Earth above sea level?",
+    "query_b": "Which mountain has the highest elevation above sea level worldwide?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0027",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How many players are on the field per side in soccer?",
+    "query_b": "How many footballers does each team field during a match?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Football = soccer here; same count.",
+    "condition": null,
+    "tags": [
+      "synonym",
+      "sports"
+    ]
+  },
+  {
+    "sample_id": "SC_0028",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is an API?",
+    "query_b": "Could you explain what an application programming interface is?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "expansion",
+      "verbose",
+      "tech"
+    ]
+  },
+  {
+    "sample_id": "SC_0029",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the currency of Brazil?",
+    "query_b": "which money do they use in Brazil",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact.",
+    "condition": null,
+    "tags": [
+      "informal",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0030",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I calculate the area of a circle?",
+    "query_b": "What formula gives a circle's area?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same formula.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0031",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the largest ocean on Earth?",
+    "query_b": "Which of the world's oceans is the biggest?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0032",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I convert a list to a set in Python?",
+    "query_b": "python: turn list into set",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same operation.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0033",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the Pythagorean theorem?",
+    "query_b": "Can you tell me what the Pythagorean theorem states?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same theorem statement.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0034",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How many bones does an adult human have?",
+    "query_b": "What's the total count of bones in the adult human body?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same count.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "anatomy"
+    ]
+  },
+  {
+    "sample_id": "SC_0035",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is inflation in economics?",
+    "query_b": "Define inflation as an economic term.",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Question vs. directive; same definition.",
+    "condition": null,
+    "tags": [
+      "request-form",
+      "economics"
+    ]
+  },
+  {
+    "sample_id": "SC_0036",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I merge two dictionaries in Python?",
+    "query_b": "Combine 2 dicts in python, best way?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "informal",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0037",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What's the difference between RAM and storage?",
+    "query_b": "How is RAM different from a hard drive or SSD?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same comparison.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "hardware"
+    ]
+  },
+  {
+    "sample_id": "SC_0038",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the freezing point of water in Fahrenheit?",
+    "query_b": "At what temperature in F does water freeze?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "science"
+    ]
+  },
+  {
+    "sample_id": "SC_0039",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Who discovered penicillin?",
+    "query_b": "Which scientist is credited with discovering penicillin?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same attribution.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0040",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the longest river in Africa?",
+    "query_b": "Name Africa's longest river.",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact.",
+    "condition": null,
+    "tags": [
+      "request-form",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0041",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I create a new branch in Git?",
+    "query_b": "git: steps to make a new branch",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same operation.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0042",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the purpose of a firewall?",
+    "query_b": "What does a firewall do?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "security"
+    ]
+  },
+  {
+    "sample_id": "SC_0043",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How many minutes are in a day?",
+    "query_b": "minutes per day?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same computation.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0044",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is DNS?",
+    "query_b": "Could you please explain what the Domain Name System does?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "verbose",
+      "abbreviation",
+      "tech"
+    ]
+  },
+  {
+    "sample_id": "SC_0045",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Who was the first President of the United States?",
+    "query_b": "Who served as America's first president?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0046",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the plural of 'cactus'?",
+    "query_b": "How do you pluralize cactus?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same answer (cacti/cactuses).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "grammar"
+    ]
+  },
+  {
+    "sample_id": "SC_0047",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I find the median of a list of numbers?",
+    "query_b": "What's the method for calculating the median of a data set?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same procedure.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "statistics"
+    ]
+  },
+  {
+    "sample_id": "SC_0048",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the main ingredient in guacamole?",
+    "query_b": "Guacamole is mostly made from what?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same answer (avocado).",
+    "condition": null,
+    "tags": [
+      "restructure",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0049",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is an index in a database?",
+    "query_b": "What's the idea behind a database index?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "databases"
+    ]
+  },
+  {
+    "sample_id": "SC_0050",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the official language of Brazil?",
+    "query_b": "Which language is spoken officially in Brazil?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same answer (Portuguese).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0051",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How does a refrigerator keep food cold?",
+    "query_b": "What's the working principle behind a fridge?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same explanation.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "appliances"
+    ]
+  },
+  {
+    "sample_id": "SC_0052",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I remove duplicates from a list in Python?",
+    "query_b": "dedupe a python list",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0053",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the Great Wall of China?",
+    "query_b": "Tell me about China's Great Wall.",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same overview.",
+    "condition": null,
+    "tags": [
+      "request-form",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0054",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What does CPU stand for?",
+    "query_b": "What's CPU short for?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same expansion.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "tech"
+    ]
+  },
+  {
+    "sample_id": "SC_0055",
+    "category": "strong_semantic_equivalence",
+    "query_a": "When should I use 'its' versus 'it's'?",
+    "query_b": "What is the difference between its and it's?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same grammar rule.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "grammar"
+    ]
+  },
+  {
+    "sample_id": "SC_0056",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Number of sides on a hexagon?",
+    "query_b": "How many edges does a hexagon have?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same count.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "geometry"
+    ]
+  },
+  {
+    "sample_id": "SC_0057",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What causes earthquakes?",
+    "query_b": "Why do earthquakes happen?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same explanation.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "geology"
+    ]
+  },
+  {
+    "sample_id": "SC_0058",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How can I improve my sleep quality?",
+    "query_b": "Any tips for sleeping better at night?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same general-advice request.",
+    "condition": null,
+    "tags": [
+      "conversational",
+      "health"
+    ]
+  },
+  {
+    "sample_id": "SC_0059",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the Fibonacci sequence?",
+    "query_b": "Can you describe the Fibonacci numbers?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0060",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the capital of Australia?",
+    "query_b": "Which city is the capital of Australia?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact (Canberra).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0061",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What's the syntax for defining a function in JavaScript?",
+    "query_b": "JS function syntax?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same topic.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "terse",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0062",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is a black hole?",
+    "query_b": "Explain what black holes are.",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "request-form",
+      "astronomy"
+    ]
+  },
+  {
+    "sample_id": "SC_0063",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What's the formula for compound interest?",
+    "query_b": "How do I calculate compound interest?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same formula/procedure.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "finance"
+    ]
+  },
+  {
+    "sample_id": "SC_0064",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What does the human heart do?",
+    "query_b": "What is the main function of the heart?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same function.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "anatomy"
+    ]
+  },
+  {
+    "sample_id": "SC_0065",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How long is a marathon?",
+    "query_b": "What distance do runners cover in a marathon?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact (42.195 km).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "sports"
+    ]
+  },
+  {
+    "sample_id": "SC_0066",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is an algorithm?",
+    "query_b": "In computing, what exactly is an algorithm?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same definition.",
+    "condition": null,
+    "tags": [
+      "verbose",
+      "tech"
+    ]
+  },
+  {
+    "sample_id": "SC_0067",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Why do leaves change color in autumn?",
+    "query_b": "What makes leaves turn red and orange in the fall?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same explanation.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "botany"
+    ]
+  },
+  {
+    "sample_id": "SC_0068",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I create a virtual environment in Python?",
+    "query_b": "python venv setup steps",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0069",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the Ring of Fire?",
+    "query_b": "Can you tell me what the 'Ring of Fire' in the Pacific is?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "verbose",
+      "geology"
+    ]
+  },
+  {
+    "sample_id": "SC_0070",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Which language do most people speak in Egypt?",
+    "query_b": "What is Egypt's main language?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact (Arabic).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0071",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is cloud computing?",
+    "query_b": "Please explain, in a few sentences, what cloud computing is.",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same definition.",
+    "condition": null,
+    "tags": [
+      "verbose",
+      "tech"
+    ]
+  },
+  {
+    "sample_id": "SC_0072",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I convert kilometers to miles?",
+    "query_b": "km to miles conversion?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same conversion.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "units"
+    ]
+  },
+  {
+    "sample_id": "SC_0073",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What does insulin do in the body?",
+    "query_b": "What is the role of insulin?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same function.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "biology"
+    ]
+  },
+  {
+    "sample_id": "SC_0074",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the difference between a list and a tuple in Python?",
+    "query_b": "Python lists vs tuples - how are they different?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same comparison.",
+    "condition": null,
+    "tags": [
+      "informal",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0075",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Who is the author of 1984?",
+    "query_b": "Who wrote the novel Nineteen Eighty-Four?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same book, same author.",
+    "condition": null,
+    "tags": [
+      "numeral-spelling",
+      "literature"
+    ]
+  },
+  {
+    "sample_id": "SC_0076",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I check which version of Python I have installed?",
+    "query_b": "python version check command?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0077",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the greenhouse effect?",
+    "query_b": "How does the greenhouse effect warm the planet?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same explanation.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "climate"
+    ]
+  },
+  {
+    "sample_id": "SC_0078",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is a noun?",
+    "query_b": "Define 'noun' in grammar.",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same definition.",
+    "condition": null,
+    "tags": [
+      "request-form",
+      "grammar"
+    ]
+  },
+  {
+    "sample_id": "SC_0079",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How many hours of sleep do adults generally need?",
+    "query_b": "What's the recommended amount of nightly sleep for grown-ups?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same general guideline.",
+    "condition": null,
+    "tags": [
+      "synonym",
+      "health"
+    ]
+  },
+  {
+    "sample_id": "SC_0080",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the capital city of Canada?",
+    "query_b": "Canada's capital - what is it?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact.",
+    "condition": null,
+    "tags": [
+      "restructure",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0081",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I cook pasta properly?",
+    "query_b": "What's the correct way to cook pasta in boiling water?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same procedure.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0082",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What does 'carpe diem' mean?",
+    "query_b": "Meaning of the Latin phrase carpe diem?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same meaning.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "vocabulary"
+    ]
+  },
+  {
+    "sample_id": "SC_0083",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is a prime number?",
+    "query_b": "What makes a number prime?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same definition.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0084",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the Turing test?",
+    "query_b": "Can you explain the test Alan Turing proposed to judge machine intelligence?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "verbose",
+      "computing"
+    ]
+  },
+  {
+    "sample_id": "SC_0085",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is blockchain?",
+    "query_b": "can u explain blockchain in a nutshell",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "informal",
+      "tech"
+    ]
+  },
+  {
+    "sample_id": "SC_0086",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I make iced coffee at home?",
+    "query_b": "Easiest way to prepare iced coffee in my kitchen?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0087",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the plural of 'child'?",
+    "query_b": "How do you say more than one child?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same answer (children).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "grammar"
+    ]
+  },
+  {
+    "sample_id": "SC_0088",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How many seconds are in an hour?",
+    "query_b": "seconds in 1 hr?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same computation.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0089",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the purpose of the United Nations?",
+    "query_b": "What does the UN do?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same overview.",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "politics"
+    ]
+  },
+  {
+    "sample_id": "SC_0090",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is encryption?",
+    "query_b": "Explain what encrypting data means.",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "request-form",
+      "security"
+    ]
+  },
+  {
+    "sample_id": "SC_0091",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I tie a necktie?",
+    "query_b": "Steps for knotting a tie",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "fashion"
+    ]
+  },
+  {
+    "sample_id": "SC_0092",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the lightest chemical element?",
+    "query_b": "Which element has the lowest atomic mass?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same answer (hydrogen).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "chemistry"
+    ]
+  },
+  {
+    "sample_id": "SC_0093",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I clear my browser cache?",
+    "query_b": "Wipe cached files from my web browser - how?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "tech-support"
+    ]
+  },
+  {
+    "sample_id": "SC_0094",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the difference between a crocodile and an alligator?",
+    "query_b": "How can I tell alligators and crocodiles apart?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same distinguishing features.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "biology"
+    ]
+  },
+  {
+    "sample_id": "SC_0095",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What does FAQ mean?",
+    "query_b": "FAQ stands for what?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same expansion.",
+    "condition": null,
+    "tags": [
+      "abbreviation"
+    ]
+  },
+  {
+    "sample_id": "SC_0096",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is recursion in programming?",
+    "query_b": "Could you explain what it means for a function to call itself recursively?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "verbose",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0097",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the largest country by area?",
+    "query_b": "Which nation covers the most land area?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0098",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the smallest prime number?",
+    "query_b": "Which is the lowest prime?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same answer (2).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0099",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I convert a PDF to Word?",
+    "query_b": "Is there a way to turn a PDF file into an editable Word document?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "verbose",
+      "office"
+    ]
+  },
+  {
+    "sample_id": "SC_0100",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is Newton's first law of motion?",
+    "query_b": "Explain the law of inertia.",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Inertia law is Newton's first law; same answer.",
+    "condition": null,
+    "tags": [
+      "synonym",
+      "physics"
+    ]
+  },
+  {
+    "sample_id": "SC_0101",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the freezing point of water in Celsius?",
+    "query_b": "At what temperature does water turn to ice, in C?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "science"
+    ]
+  },
+  {
+    "sample_id": "SC_0102",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I convert a list of strings to a single string in Python?",
+    "query_b": "python join list into string",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same operation.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0103",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Who developed the theory of general relativity?",
+    "query_b": "Which physicist came up with general relativity?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same attribution.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "physics"
+    ]
+  },
+  {
+    "sample_id": "SC_0104",
+    "category": "strong_semantic_equivalence",
+    "query_a": "Name the capital city of Italy.",
+    "query_b": "what city is the capital of italy",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact.",
+    "condition": null,
+    "tags": [
+      "informal",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0105",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the meaning of 'deja vu'?",
+    "query_b": "What does the phrase deja vu refer to?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same meaning.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "vocabulary"
+    ]
+  },
+  {
+    "sample_id": "SC_0106",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How many weeks make up a standard year?",
+    "query_b": "weeks per year (approx)?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same answer (about 52).",
+    "condition": null,
+    "tags": [
+      "terse",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0107",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the main job of white blood cells?",
+    "query_b": "How do white blood cells protect the body?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same function.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "biology"
+    ]
+  },
+  {
+    "sample_id": "SC_0108",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I freeze the top row in Excel?",
+    "query_b": "excel keep first row visible when scrolling - how?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "informal",
+      "office"
+    ]
+  },
+  {
+    "sample_id": "SC_0109",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the difference between HTTP and HTTPS?",
+    "query_b": "How is HTTPS different from plain HTTP?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same comparison.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "tech"
+    ]
+  },
+  {
+    "sample_id": "SC_0110",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What language is spoken in Argentina?",
+    "query_b": "Which language do Argentinians speak officially?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact (Spanish).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0111",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I stop a Docker container?",
+    "query_b": "docker: command to halt a running container",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "terse",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0112",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the tallest animal?",
+    "query_b": "Which animal is the tallest in the world?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact (giraffe).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "biology"
+    ]
+  },
+  {
+    "sample_id": "SC_0113",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the value of pi to two decimal places?",
+    "query_b": "pi rounded to 2 dp?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same value (3.14).",
+    "condition": null,
+    "tags": [
+      "abbreviation",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0114",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I write a comment in Python?",
+    "query_b": "What's the syntax for adding comments in Python code?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same syntax.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0115",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is the purpose of a stock exchange?",
+    "query_b": "Why do stock exchanges exist?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same explanation.",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "finance"
+    ]
+  },
+  {
+    "sample_id": "SC_0116",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I convert an image to black and white?",
+    "query_b": "What's the easiest way to make a photo grayscale?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same task.",
+    "condition": null,
+    "tags": [
+      "synonym",
+      "tech-support"
+    ]
+  },
+  {
+    "sample_id": "SC_0117",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is Moore's law?",
+    "query_b": "Can you explain what Moore's law says?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "verbose",
+      "computing"
+    ]
+  },
+  {
+    "sample_id": "SC_0118",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How long does it take for sunlight to reach Earth?",
+    "query_b": "Time for light from the Sun to get to Earth?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same fact (about 8 min 20 s).",
+    "condition": null,
+    "tags": [
+      "paraphrase",
+      "astronomy"
+    ]
+  },
+  {
+    "sample_id": "SC_0119",
+    "category": "strong_semantic_equivalence",
+    "query_a": "What is a haiku?",
+    "query_b": "Could you describe the haiku form of poetry?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same concept.",
+    "condition": null,
+    "tags": [
+      "verbose",
+      "literature"
+    ]
+  },
+  {
+    "sample_id": "SC_0120",
+    "category": "strong_semantic_equivalence",
+    "query_a": "How do I split a restaurant bill evenly?",
+    "query_b": "What's the fairest way to divide a check equally among friends?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same procedure.",
+    "condition": null,
+    "tags": [
+      "conversational",
+      "daily-life"
+    ]
+  },
+  {
+    "sample_id": "SC_0121",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the population of Paris, France?",
+    "query_b": "What is the population of Paris, Texas?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different cities named Paris; populations differ by orders of magnitude.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0122",
+    "category": "lexical_hard_negatives",
+    "query_a": "What caused the fall of the Roman Empire?",
+    "query_b": "What were the consequences of the fall of the Roman Empire?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Causes and consequences are different content.",
+    "condition": null,
+    "tags": [
+      "cause-vs-effect",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0123",
+    "category": "lexical_hard_negatives",
+    "query_a": "What are the advantages of remote work?",
+    "query_b": "What are the disadvantages of remote work?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Opposite polarity requested.",
+    "condition": null,
+    "tags": [
+      "pros-vs-cons",
+      "work"
+    ]
+  },
+  {
+    "sample_id": "SC_0124",
+    "category": "lexical_hard_negatives",
+    "query_a": "Who won the 1998 FIFA World Cup?",
+    "query_b": "Who won the 2002 FIFA World Cup?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different tournaments, different winners.",
+    "condition": null,
+    "tags": [
+      "date",
+      "sports"
+    ]
+  },
+  {
+    "sample_id": "SC_0125",
+    "category": "lexical_hard_negatives",
+    "query_a": "How many tablespoons are in a cup?",
+    "query_b": "How many teaspoons are in a cup?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different units, different numbers.",
+    "condition": null,
+    "tags": [
+      "units",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0126",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the capital of Georgia, the country?",
+    "query_b": "What is the capital of Georgia, the U.S. state?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Tbilisi vs. Atlanta.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0127",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I convert Celsius to Fahrenheit?",
+    "query_b": "How do I convert Fahrenheit to Celsius?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Inverse formulas.",
+    "condition": null,
+    "tags": [
+      "direction",
+      "units"
+    ]
+  },
+  {
+    "sample_id": "SC_0128",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the time complexity of quicksort in the average case?",
+    "query_b": "What is the time complexity of quicksort in the worst case?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "O(n log n) vs. O(n^2).",
+    "condition": null,
+    "tags": [
+      "constraint",
+      "algorithms"
+    ]
+  },
+  {
+    "sample_id": "SC_0129",
+    "category": "lexical_hard_negatives",
+    "query_a": "How does integer division work in Python 2?",
+    "query_b": "How does integer division work in Python 3?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Behavior differs between versions.",
+    "condition": null,
+    "tags": [
+      "version",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0130",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the distance from Earth to the Moon?",
+    "query_b": "What is the distance from Earth to the Sun?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different bodies, very different distances.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "astronomy"
+    ]
+  },
+  {
+    "sample_id": "SC_0131",
+    "category": "lexical_hard_negatives",
+    "query_a": "How many calories are in a banana?",
+    "query_b": "How many calories are in a plantain?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different foods, different values.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "nutrition"
+    ]
+  },
+  {
+    "sample_id": "SC_0132",
+    "category": "lexical_hard_negatives",
+    "query_a": "What causes type 1 diabetes?",
+    "query_b": "What causes type 2 diabetes?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Different etiologies.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "medical"
+    ]
+  },
+  {
+    "sample_id": "SC_0133",
+    "category": "lexical_hard_negatives",
+    "query_a": "Who was the first person to walk on the Moon?",
+    "query_b": "Who was the first person to orbit the Earth?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Armstrong vs. Gagarin.",
+    "condition": null,
+    "tags": [
+      "action",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0134",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I delete a file in Linux?",
+    "query_b": "How do I delete a directory in Linux?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Directories need recursive flags (rm -r / rmdir).",
+    "condition": null,
+    "tags": [
+      "action",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0135",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the population of Birmingham, Alabama?",
+    "query_b": "What is the population of Birmingham, England?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different cities, different populations.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0136",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the boiling point of water at sea level?",
+    "query_b": "What is the boiling point of water at 5,000 meters elevation?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Altitude changes the boiling point.",
+    "condition": null,
+    "tags": [
+      "constraint",
+      "science"
+    ]
+  },
+  {
+    "sample_id": "SC_0137",
+    "category": "lexical_hard_negatives",
+    "query_a": "Who invented the telephone?",
+    "query_b": "Who invented the telegraph?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different inventions and inventors.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0138",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the height of Mount Everest?",
+    "query_b": "What is the height of Mount Kilimanjaro?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different mountains.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0139",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I convert meters to feet?",
+    "query_b": "How do I convert feet to meters?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Inverse conversion factors.",
+    "condition": null,
+    "tags": [
+      "direction",
+      "units"
+    ]
+  },
+  {
+    "sample_id": "SC_0140",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I rename a file in Git?",
+    "query_b": "How do I rename a branch in Git?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different commands (git mv vs. git branch -m).",
+    "condition": null,
+    "tags": [
+      "action",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0141",
+    "category": "lexical_hard_negatives",
+    "query_a": "What are the side effects of aspirin?",
+    "query_b": "What are the side effects of ibuprofen?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Different drugs, different profiles.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "medical"
+    ]
+  },
+  {
+    "sample_id": "SC_0142",
+    "category": "lexical_hard_negatives",
+    "query_a": "How tall is the Eiffel Tower?",
+    "query_b": "How tall is the Tokyo Tower?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different structures.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0143",
+    "category": "lexical_hard_negatives",
+    "query_a": "What year did World War I begin?",
+    "query_b": "What year did World War I end?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "1914 vs. 1918.",
+    "condition": null,
+    "tags": [
+      "action",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0144",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the difference between TCP and UDP?",
+    "query_b": "What is the difference between TCP and IP?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different comparison targets.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "networking"
+    ]
+  },
+  {
+    "sample_id": "SC_0145",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I make vegan pancakes?",
+    "query_b": "How do I make gluten-free pancakes?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different substitutions required.",
+    "condition": null,
+    "tags": [
+      "constraint",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0146",
+    "category": "lexical_hard_negatives",
+    "query_a": "How many calories do I burn walking for 30 minutes?",
+    "query_b": "How many calories do I burn running for 30 minutes?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different activities, different values.",
+    "condition": null,
+    "tags": [
+      "action",
+      "fitness"
+    ]
+  },
+  {
+    "sample_id": "SC_0147",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the atomic number of carbon?",
+    "query_b": "What is the atomic mass of carbon?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "6 vs. about 12.011.",
+    "condition": null,
+    "tags": [
+      "attribute",
+      "chemistry"
+    ]
+  },
+  {
+    "sample_id": "SC_0148",
+    "category": "lexical_hard_negatives",
+    "query_a": "Who was the first emperor of Rome?",
+    "query_b": "Who was the first emperor of China?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Augustus vs. Qin Shi Huang.",
+    "condition": null,
+    "tags": [
+      "geography",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0149",
+    "category": "lexical_hard_negatives",
+    "query_a": "What are the benefits of intermittent fasting?",
+    "query_b": "What are the risks of intermittent fasting?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Benefits vs. risks.",
+    "condition": null,
+    "tags": [
+      "pros-vs-cons",
+      "health"
+    ]
+  },
+  {
+    "sample_id": "SC_0150",
+    "category": "lexical_hard_negatives",
+    "query_a": "How does a vaccine work?",
+    "query_b": "How does an antibiotic work?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Entirely different mechanisms.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "medical"
+    ]
+  },
+  {
+    "sample_id": "SC_0151",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the official language of Switzerland?",
+    "query_b": "What is the official language of Sweden?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different countries and answers.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0152",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I create a table in SQL?",
+    "query_b": "How do I create a view in SQL?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different DDL statements.",
+    "condition": null,
+    "tags": [
+      "action",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0153",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the formula for the area of a triangle?",
+    "query_b": "What is the formula for the perimeter of a triangle?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different formulas.",
+    "condition": null,
+    "tags": [
+      "attribute",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0154",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the history of the Olympic Games?",
+    "query_b": "What is the history of the Paralympic Games?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different events and histories.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "sports"
+    ]
+  },
+  {
+    "sample_id": "SC_0155",
+    "category": "lexical_hard_negatives",
+    "query_a": "What does a CEO do?",
+    "query_b": "What does a CFO do?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different roles.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "business"
+    ]
+  },
+  {
+    "sample_id": "SC_0156",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I convert a string to uppercase in Python?",
+    "query_b": "How do I convert a string to lowercase in Python?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different methods (upper vs. lower).",
+    "condition": null,
+    "tags": [
+      "action",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0157",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the longest river in Asia?",
+    "query_b": "What is the longest river in Europe?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different continents.",
+    "condition": null,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0158",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the time difference between London and New York?",
+    "query_b": "What is the time difference between London and Tokyo?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different offsets.",
+    "condition": null,
+    "tags": [
+      "geography",
+      "time"
+    ]
+  },
+  {
+    "sample_id": "SC_0159",
+    "category": "lexical_hard_negatives",
+    "query_a": "What were the causes of World War II?",
+    "query_b": "What were the consequences of World War II?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Causes vs. consequences.",
+    "condition": null,
+    "tags": [
+      "cause-vs-effect",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0160",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the difference between a stock and a bond?",
+    "query_b": "What is the difference between a stock and a share?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Second pair is nearly synonymous; the answers differ in kind.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "finance"
+    ]
+  },
+  {
+    "sample_id": "SC_0161",
+    "category": "lexical_hard_negatives",
+    "query_a": "Who composed The Four Seasons?",
+    "query_b": "Who composed The Nutcracker?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Vivaldi vs. Tchaikovsky.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "music"
+    ]
+  },
+  {
+    "sample_id": "SC_0162",
+    "category": "lexical_hard_negatives",
+    "query_a": "How many players are on a basketball team on the court?",
+    "query_b": "How many players are on a volleyball team on the court?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Basketball fields 5 per side; volleyball fields 6.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "sports"
+    ]
+  },
+  {
+    "sample_id": "SC_0163",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the formula for the volume of a sphere?",
+    "query_b": "What is the formula for the surface area of a sphere?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different formulas.",
+    "condition": null,
+    "tags": [
+      "attribute",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0164",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the capital of North Dakota?",
+    "query_b": "What is the capital of South Dakota?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Bismarck vs. Pierre.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0165",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the plot of Hamlet?",
+    "query_b": "What is the plot of Macbeth?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different plays.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "literature"
+    ]
+  },
+  {
+    "sample_id": "SC_0166",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I cook rice on the stove?",
+    "query_b": "How do I cook rice in a rice cooker?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different method and ratios.",
+    "condition": null,
+    "tags": [
+      "action",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0167",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the recommended daily intake of vitamin C?",
+    "query_b": "What is the recommended daily intake of vitamin D?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Different vitamins and amounts.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "nutrition"
+    ]
+  },
+  {
+    "sample_id": "SC_0168",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I reduce the size of a PNG image?",
+    "query_b": "How do I reduce the size of a PDF file?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different formats and tools.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "tech-support"
+    ]
+  },
+  {
+    "sample_id": "SC_0169",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the difference between mean and median?",
+    "query_b": "What is the difference between mean and mode?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different comparisons.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "statistics"
+    ]
+  },
+  {
+    "sample_id": "SC_0170",
+    "category": "lexical_hard_negatives",
+    "query_a": "What are the symptoms of a cold?",
+    "query_b": "What are the symptoms of the flu?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Overlapping but distinct profiles.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "medical"
+    ]
+  },
+  {
+    "sample_id": "SC_0171",
+    "category": "lexical_hard_negatives",
+    "query_a": "How is glass made?",
+    "query_b": "How is steel made?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different processes.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "manufacturing"
+    ]
+  },
+  {
+    "sample_id": "SC_0172",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the first law of thermodynamics?",
+    "query_b": "What is the second law of thermodynamics?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different laws.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "physics"
+    ]
+  },
+  {
+    "sample_id": "SC_0173",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I create a pull request on GitHub?",
+    "query_b": "How do I merge a pull request on GitHub?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different workflow steps.",
+    "condition": null,
+    "tags": [
+      "action",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0174",
+    "category": "lexical_hard_negatives",
+    "query_a": "Who painted The Starry Night?",
+    "query_b": "Who painted The Night Watch?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Van Gogh vs. Rembrandt.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "art"
+    ]
+  },
+  {
+    "sample_id": "SC_0175",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the capital of Ireland?",
+    "query_b": "What is the capital of Iceland?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Dublin vs. Reykjavik.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0176",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is Austria known for?",
+    "query_b": "What is Australia known for?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different countries.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0177",
+    "category": "lexical_hard_negatives",
+    "query_a": "What does the prefix 'micro' mean?",
+    "query_b": "What does the prefix 'mega' mean?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Opposite magnitudes.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "vocabulary"
+    ]
+  },
+  {
+    "sample_id": "SC_0178",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I install Python on macOS?",
+    "query_b": "How do I uninstall Python on macOS?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Opposite actions.",
+    "condition": null,
+    "tags": [
+      "action",
+      "tech-support"
+    ]
+  },
+  {
+    "sample_id": "SC_0179",
+    "category": "lexical_hard_negatives",
+    "query_a": "Explain how a binary search works.",
+    "query_b": "Explain how a binary search tree works.",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Algorithm vs. data structure.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "algorithms"
+    ]
+  },
+  {
+    "sample_id": "SC_0180",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the speed of sound in air?",
+    "query_b": "What is the speed of sound in water?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different media, different speeds.",
+    "condition": null,
+    "tags": [
+      "constraint",
+      "physics"
+    ]
+  },
+  {
+    "sample_id": "SC_0181",
+    "category": "lexical_hard_negatives",
+    "query_a": "How many chromosomes do humans have?",
+    "query_b": "How many chromosomes do dogs have?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "46 vs. 78.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "biology"
+    ]
+  },
+  {
+    "sample_id": "SC_0182",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the best way to learn Spanish?",
+    "query_b": "What is the best way to teach Spanish?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Learner vs. teacher perspective.",
+    "condition": null,
+    "tags": [
+      "action",
+      "education"
+    ]
+  },
+  {
+    "sample_id": "SC_0183",
+    "category": "lexical_hard_negatives",
+    "query_a": "Why did the Titanic sink?",
+    "query_b": "Why was the Titanic considered unsinkable?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different causal questions.",
+    "condition": null,
+    "tags": [
+      "cause",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0184",
+    "category": "lexical_hard_negatives",
+    "query_a": "What happened in England in 1066?",
+    "query_b": "What happened in England in 1666?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Norman Conquest vs. Great Fire of London.",
+    "condition": null,
+    "tags": [
+      "date",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0185",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I back up my iPhone to iCloud?",
+    "query_b": "How do I restore my iPhone from iCloud?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Opposite directions.",
+    "condition": null,
+    "tags": [
+      "action",
+      "tech-support"
+    ]
+  },
+  {
+    "sample_id": "SC_0186",
+    "category": "lexical_hard_negatives",
+    "query_a": "What are the pros of electric cars?",
+    "query_b": "What are the cons of electric cars?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Opposite polarity.",
+    "condition": null,
+    "tags": [
+      "pros-vs-cons"
+    ]
+  },
+  {
+    "sample_id": "SC_0187",
+    "category": "lexical_hard_negatives",
+    "query_a": "How does a knight move in chess?",
+    "query_b": "How does a bishop move in chess?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different pieces.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "games"
+    ]
+  },
+  {
+    "sample_id": "SC_0188",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the chemical formula for water?",
+    "query_b": "What is the chemical formula for hydrogen peroxide?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "H2O vs. H2O2; a one-atom difference changes the answer.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "chemistry"
+    ]
+  },
+  {
+    "sample_id": "SC_0189",
+    "category": "lexical_hard_negatives",
+    "query_a": "How long should I boil an egg for a soft yolk?",
+    "query_b": "How long should I boil an egg for a hard yolk?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different times.",
+    "condition": null,
+    "tags": [
+      "constraint",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0190",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the largest desert in the world?",
+    "query_b": "What is the largest hot desert in the world?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Antarctica vs. Sahara.",
+    "condition": null,
+    "tags": [
+      "constraint",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0191",
+    "category": "lexical_hard_negatives",
+    "query_a": "How many time zones does Russia have?",
+    "query_b": "How many time zones does the United States have?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different countries and counts.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0192",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I join strings in Python?",
+    "query_b": "How do I split strings in Python?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Opposite operations.",
+    "condition": null,
+    "tags": [
+      "action",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0193",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the capital of the Netherlands?",
+    "query_b": "What is the seat of government of the Netherlands?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Amsterdam vs. The Hague.",
+    "condition": null,
+    "tags": [
+      "attribute",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0194",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the largest city in Australia?",
+    "query_b": "What is the capital of Australia?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Sydney vs. Canberra.",
+    "condition": null,
+    "tags": [
+      "attribute",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0195",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the largest city in Turkey?",
+    "query_b": "What is the capital of Turkey?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Istanbul vs. Ankara.",
+    "condition": null,
+    "tags": [
+      "attribute",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0196",
+    "category": "lexical_hard_negatives",
+    "query_a": "How many legs does a spider have?",
+    "query_b": "How many legs does an insect have?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Spiders have 8 legs; insects have 6.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "biology"
+    ]
+  },
+  {
+    "sample_id": "SC_0197",
+    "category": "lexical_hard_negatives",
+    "query_a": "Is a whale a fish?",
+    "query_b": "Is a whale a mammal?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "No vs. yes.",
+    "condition": null,
+    "tags": [
+      "polarity",
+      "biology"
+    ]
+  },
+  {
+    "sample_id": "SC_0198",
+    "category": "lexical_hard_negatives",
+    "query_a": "What does the Supreme Court of the United States do?",
+    "query_b": "What does the Supreme Court of India do?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different jurisdictions and powers.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "law"
+    ]
+  },
+  {
+    "sample_id": "SC_0199",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the minimum age to vote in the United States?",
+    "query_b": "What is the minimum age to run for President of the United States?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "18 vs. 35.",
+    "condition": null,
+    "tags": [
+      "attribute",
+      "law"
+    ]
+  },
+  {
+    "sample_id": "SC_0200",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I calculate simple interest?",
+    "query_b": "How do I calculate compound interest?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different formulas.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "finance"
+    ]
+  },
+  {
+    "sample_id": "SC_0201",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the difference between baking soda and baking powder?",
+    "query_b": "What is the difference between baking soda and washing soda?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different comparison targets; washing soda is not food-safe.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0202",
+    "category": "lexical_hard_negatives",
+    "query_a": "What are the planets closest to the Sun?",
+    "query_b": "What are the planets farthest from the Sun?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Opposite ends of the solar system.",
+    "condition": null,
+    "tags": [
+      "polarity",
+      "astronomy"
+    ]
+  },
+  {
+    "sample_id": "SC_0203",
+    "category": "lexical_hard_negatives",
+    "query_a": "Who was the 16th president of the United States?",
+    "query_b": "Who was the 26th president of the United States?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Lincoln vs. Theodore Roosevelt.",
+    "condition": null,
+    "tags": [
+      "quantity",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0204",
+    "category": "lexical_hard_negatives",
+    "query_a": "What does RAM stand for?",
+    "query_b": "What does ROM stand for?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different acronyms.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "tech"
+    ]
+  },
+  {
+    "sample_id": "SC_0205",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I convert a decimal number to binary?",
+    "query_b": "How do I convert a binary number to decimal?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Inverse procedures.",
+    "condition": null,
+    "tags": [
+      "direction",
+      "math"
+    ]
+  },
+  {
+    "sample_id": "SC_0206",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the capital of Mexico?",
+    "query_b": "What is the capital of New Mexico?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Mexico City vs. Santa Fe.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "geography"
+    ]
+  },
+  {
+    "sample_id": "SC_0207",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I make a copy of a Google Doc?",
+    "query_b": "How do I share a Google Doc?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different actions.",
+    "condition": null,
+    "tags": [
+      "action",
+      "tech-support"
+    ]
+  },
+  {
+    "sample_id": "SC_0208",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the Treaty of Versailles?",
+    "query_b": "What is the Treaty of Westphalia?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different treaties and eras.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0209",
+    "category": "lexical_hard_negatives",
+    "query_a": "How does solar power work?",
+    "query_b": "How does wind power work?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different mechanisms.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "energy"
+    ]
+  },
+  {
+    "sample_id": "SC_0210",
+    "category": "lexical_hard_negatives",
+    "query_a": "What were the causes of the French Revolution?",
+    "query_b": "What were the effects of the French Revolution?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Causes vs. effects.",
+    "condition": null,
+    "tags": [
+      "cause-vs-effect",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0211",
+    "category": "lexical_hard_negatives",
+    "query_a": "When did the Berlin Wall fall?",
+    "query_b": "When was the Berlin Wall built?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "1989 vs. 1961.",
+    "condition": null,
+    "tags": [
+      "action",
+      "history"
+    ]
+  },
+  {
+    "sample_id": "SC_0212",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the formula for kinetic energy?",
+    "query_b": "What is the formula for potential energy?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different formulas.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "physics"
+    ]
+  },
+  {
+    "sample_id": "SC_0213",
+    "category": "lexical_hard_negatives",
+    "query_a": "How many grams are in an ounce?",
+    "query_b": "How many ounces are in a gram?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Reciprocal values.",
+    "condition": null,
+    "tags": [
+      "direction",
+      "units"
+    ]
+  },
+  {
+    "sample_id": "SC_0214",
+    "category": "lexical_hard_negatives",
+    "query_a": "How can I become a nurse in the UK?",
+    "query_b": "How can I become a nurse in Canada?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different licensing paths.",
+    "condition": null,
+    "tags": [
+      "geography",
+      "career"
+    ]
+  },
+  {
+    "sample_id": "SC_0215",
+    "category": "lexical_hard_negatives",
+    "query_a": "What are the main exports of Brazil?",
+    "query_b": "What are the main imports of Brazil?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Exports vs. imports.",
+    "condition": null,
+    "tags": [
+      "polarity",
+      "economics"
+    ]
+  },
+  {
+    "sample_id": "SC_0216",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the meaning of 'affect'?",
+    "query_b": "What is the meaning of 'effect'?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different words and definitions.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "vocabulary"
+    ]
+  },
+  {
+    "sample_id": "SC_0217",
+    "category": "lexical_hard_negatives",
+    "query_a": "What is the main cause of high blood pressure?",
+    "query_b": "What is the main cause of low blood pressure?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Opposite conditions, different causes.",
+    "condition": null,
+    "tags": [
+      "polarity",
+      "medical"
+    ]
+  },
+  {
+    "sample_id": "SC_0218",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I reverse a linked list?",
+    "query_b": "How do I reverse an array?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different data structures and algorithms.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0219",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I create a Python class?",
+    "query_b": "How do I create a Python module?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different constructs.",
+    "condition": null,
+    "tags": [
+      "entity",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0220",
+    "category": "lexical_hard_negatives",
+    "query_a": "How do I turn on two-factor authentication for my bank account?",
+    "query_b": "How do I turn off two-factor authentication for my bank account?",
+    "expected_decision": "miss",
+    "semantic_relationship": "lexically_similar_different_answer",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Opposite actions; the second has security implications.",
+    "condition": null,
+    "tags": [
+      "action",
+      "security"
+    ]
+  },
+  {
+    "sample_id": "SC_0221",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I reverse a string in Python 3.10?",
+    "query_b": "How do I reverse a string in Python 3.12?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Slicing/reversed() behave identically in both versions.",
+    "condition": null,
+    "tags": [
+      "version",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0222",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I print the current working directory in bash on Ubuntu?",
+    "query_b": "How do I print the current working directory in bash on Debian?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "pwd is identical on both distributions.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0223",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I copy a file in the Linux terminal on Fedora?",
+    "query_b": "How do I copy a file in the Linux terminal on Ubuntu?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "cp is identical across Linux distributions.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0224",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I create a new Git branch on Windows?",
+    "query_b": "How do I create a new Git branch on macOS?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Git commands are platform-independent.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0225",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I read a CSV file with pandas 1.5?",
+    "query_b": "How do I read a CSV file with pandas 2.2?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "pd.read_csv usage is unchanged for basic reads.",
+    "condition": null,
+    "tags": [
+      "version",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0226",
+    "category": "context_constraint_sensitive",
+    "query_a": "Explain what a SQL JOIN is, using MySQL.",
+    "query_b": "Explain what a SQL JOIN is, using PostgreSQL.",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Conceptual explanation is engine-independent.",
+    "condition": null,
+    "tags": [
+      "database",
+      "concept"
+    ]
+  },
+  {
+    "sample_id": "SC_0227",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I open the terminal in Ubuntu 22.04?",
+    "query_b": "How do I open the terminal in Ubuntu 24.04?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Ctrl+Alt+T works in both releases.",
+    "condition": null,
+    "tags": [
+      "version",
+      "os"
+    ]
+  },
+  {
+    "sample_id": "SC_0228",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I take a screenshot on Windows 10?",
+    "query_b": "How do I take a screenshot on Windows 11?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "PrtScn and Win+Shift+S work in both.",
+    "condition": null,
+    "tags": [
+      "version",
+      "os"
+    ]
+  },
+  {
+    "sample_id": "SC_0229",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I sort a list in Python 3.8?",
+    "query_b": "How do I sort a list in Python 3.13?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "sorted()/list.sort() are unchanged.",
+    "condition": null,
+    "tags": [
+      "version",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0230",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I list files in a folder on Linux Mint?",
+    "query_b": "How do I list files in a folder on Arch Linux?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "ls is universal.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0231",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I define a class in Python inside a Jupyter notebook?",
+    "query_b": "How do I define a class in Python inside a plain .py script?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Class syntax does not depend on the runner.",
+    "condition": null,
+    "tags": [
+      "environment",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0232",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I add two numbers in JavaScript in Chrome?",
+    "query_b": "How do I add two numbers in JavaScript in Firefox?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Language semantics are browser-independent.",
+    "condition": null,
+    "tags": [
+      "environment",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0233",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I write a for loop in Python on Windows?",
+    "query_b": "How do I write a for loop in Python on macOS?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Language syntax is OS-independent.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0234",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I undo the last Git commit from the command line on Linux?",
+    "query_b": "How do I undo the last Git commit from the command line on Windows?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "git reset/revert are identical across platforms.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0235",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I check disk usage on Ubuntu Server?",
+    "query_b": "How do I check disk usage on Ubuntu Desktop?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "df -h and du work identically.",
+    "condition": null,
+    "tags": [
+      "os",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0236",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I declare a constant in JavaScript for a Node.js project?",
+    "query_b": "How do I declare a constant in JavaScript for a browser project?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "const works the same in both runtimes.",
+    "condition": null,
+    "tags": [
+      "environment",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0237",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I check my Python version in the terminal on macOS?",
+    "query_b": "How do I check my Python version in the terminal on Linux?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "python3 --version is the same on both.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0238",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I install the requests library with pip inside a virtual environment on macOS?",
+    "query_b": "How do I install the requests library with pip inside a virtual environment on Linux?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Inside an activated venv, pip install is identical.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0239",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I define a function in Python 3.9?",
+    "query_b": "How do I define a function in Python 3.11?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "def syntax is unchanged.",
+    "condition": null,
+    "tags": [
+      "version",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0240",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I read a whole text file into a string in Java 11?",
+    "query_b": "How do I read a whole text file into a string in Java 17?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Files.readString exists in both versions.",
+    "condition": null,
+    "tags": [
+      "version",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0241",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I create a list in Python on Windows 10?",
+    "query_b": "How do I create a list in Python on Windows 11?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Language-level answer; OS version irrelevant.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0242",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I concatenate strings in Java 8?",
+    "query_b": "How do I concatenate strings in Java 21?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "The + operator and StringBuilder work in both.",
+    "condition": null,
+    "tags": [
+      "version",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0243",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I write a while loop in C on Linux?",
+    "query_b": "How do I write a while loop in C on Windows?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "C syntax is platform-independent.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0244",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I merge two branches in Git on Windows?",
+    "query_b": "How do I merge two branches in Git on Linux?",
+    "expected_decision": "hit",
+    "semantic_relationship": "constraint_irrelevant_to_answer",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "git merge is identical.",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0245",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I print 'Hello, World!' in Python?",
+    "query_b": "How do I print 'Hello, World!' in Java?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "A Python answer is wrong for Java.",
+    "condition": null,
+    "tags": [
+      "language",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0246",
+    "category": "context_constraint_sensitive",
+    "query_a": "Write a function to reverse a string in Python.",
+    "query_b": "Write a function to reverse a string in C.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different language, memory model and code.",
+    "condition": null,
+    "tags": [
+      "language",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0247",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I print text to the console in Python 2?",
+    "query_b": "How do I print text to the console in Python 3?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "print statement vs. print() function.",
+    "condition": null,
+    "tags": [
+      "version",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0248",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I install Docker on Windows?",
+    "query_b": "How do I install Docker on Ubuntu?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Docker Desktop/WSL2 vs. apt repository install.",
+    "condition": null,
+    "tags": [
+      "os",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0249",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I list open ports on Linux?",
+    "query_b": "How do I list open ports on Windows?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "ss/netstat -l vs. netstat -an / Get-NetTCPConnection.",
+    "condition": null,
+    "tags": [
+      "os",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0250",
+    "category": "context_constraint_sensitive",
+    "query_a": "Recommend a laptop for programming under $500.",
+    "query_b": "Recommend a laptop for programming under $2,000.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Budget changes the viable products.",
+    "condition": null,
+    "tags": [
+      "budget",
+      "shopping"
+    ]
+  },
+  {
+    "sample_id": "SC_0251",
+    "category": "context_constraint_sensitive",
+    "query_a": "What's a good plan for a weekend trip to Lisbon on a tight budget?",
+    "query_b": "What's a good plan for a weekend trip to Lisbon on a luxury budget?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Lodging, dining, and activities differ.",
+    "condition": null,
+    "tags": [
+      "budget",
+      "travel"
+    ]
+  },
+  {
+    "sample_id": "SC_0252",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I flush the DNS cache on Windows?",
+    "query_b": "How do I flush the DNS cache on macOS?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "ipconfig /flushdns vs. dscacheutil/mDNSResponder.",
+    "condition": null,
+    "tags": [
+      "os",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0253",
+    "category": "context_constraint_sensitive",
+    "query_a": "Return the list of US states and their capitals as JSON.",
+    "query_b": "Return the list of US states and their capitals as a Markdown table.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Required output format differs.",
+    "condition": null,
+    "tags": [
+      "output-format"
+    ]
+  },
+  {
+    "sample_id": "SC_0254",
+    "category": "context_constraint_sensitive",
+    "query_a": "Summarize U.S. inflation trends from 2010 to 2015.",
+    "query_b": "Summarize U.S. inflation trends from 2020 to 2024.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different periods, different data.",
+    "condition": null,
+    "tags": [
+      "date-range",
+      "economics"
+    ]
+  },
+  {
+    "sample_id": "SC_0255",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I set up an Nginx reverse proxy over HTTP?",
+    "query_b": "How do I set up an Nginx reverse proxy with HTTPS and automatic Let's Encrypt certificates?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "TLS and certbot add substantial steps.",
+    "condition": null,
+    "tags": [
+      "config",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0256",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I build a REST API with Flask?",
+    "query_b": "How do I build a REST API with FastAPI?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different frameworks and code.",
+    "condition": null,
+    "tags": [
+      "framework",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0257",
+    "category": "context_constraint_sensitive",
+    "query_a": "Write a SQL query to get the top 5 customers by revenue in PostgreSQL.",
+    "query_b": "Write a query to get the top 5 customers by revenue in MongoDB.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "SQL vs. aggregation pipeline.",
+    "condition": null,
+    "tags": [
+      "database",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0258",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I handle exceptions in Python 3?",
+    "query_b": "How do I handle errors in Rust?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "try/except vs. Result/Option.",
+    "condition": null,
+    "tags": [
+      "language",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0259",
+    "category": "context_constraint_sensitive",
+    "query_a": "Explain async/await in JavaScript.",
+    "query_b": "Explain async/await in Python.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different runtimes and APIs (promises vs. asyncio).",
+    "condition": null,
+    "tags": [
+      "language",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0260",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I schedule a recurring task on Linux?",
+    "query_b": "How do I schedule a recurring task on Windows?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "cron vs. Task Scheduler.",
+    "condition": null,
+    "tags": [
+      "os",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0261",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I center a div using Flexbox?",
+    "query_b": "How do I center a div using CSS Grid?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different CSS properties.",
+    "condition": null,
+    "tags": [
+      "technique",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0262",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I install Node.js 18 on Ubuntu?",
+    "query_b": "How do I install Node.js 20 on Ubuntu?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different repository setup/version selection.",
+    "condition": null,
+    "tags": [
+      "version",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0263",
+    "category": "context_constraint_sensitive",
+    "query_a": "Translate 'Good morning, how are you?' into Spanish.",
+    "query_b": "Translate 'Good morning, how are you?' into French.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different target language.",
+    "condition": null,
+    "tags": [
+      "language",
+      "translation"
+    ]
+  },
+  {
+    "sample_id": "SC_0264",
+    "category": "context_constraint_sensitive",
+    "query_a": "Explain the French Revolution in English.",
+    "query_b": "Explain the French Revolution in Spanish.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Answer must be in a different language.",
+    "condition": null,
+    "tags": [
+      "output-language"
+    ]
+  },
+  {
+    "sample_id": "SC_0265",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I configure a static IP on Ubuntu 22.04?",
+    "query_b": "How do I configure a static IP on Windows 11?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Netplan vs. Windows network settings.",
+    "condition": null,
+    "tags": [
+      "os",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0266",
+    "category": "context_constraint_sensitive",
+    "query_a": "How can I save $10,000 in one year on a $40,000 salary?",
+    "query_b": "How can I save $10,000 in one year on a $120,000 salary?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Savings rate and strategy differ drastically.",
+    "condition": null,
+    "tags": [
+      "budget",
+      "finance"
+    ]
+  },
+  {
+    "sample_id": "SC_0267",
+    "category": "context_constraint_sensitive",
+    "query_a": "Give me a 3-day beginner workout plan with no equipment.",
+    "query_b": "Give me a 3-day beginner workout plan for a full gym.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Equipment constraint changes exercises.",
+    "condition": null,
+    "tags": [
+      "requirements",
+      "fitness"
+    ]
+  },
+  {
+    "sample_id": "SC_0268",
+    "category": "context_constraint_sensitive",
+    "query_a": "Write a cover letter for a software engineer position.",
+    "query_b": "Write a cover letter for a nursing position.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different role and content.",
+    "condition": null,
+    "tags": [
+      "requirements",
+      "writing"
+    ]
+  },
+  {
+    "sample_id": "SC_0269",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I read a file line by line in Python?",
+    "query_b": "How do I read a file line by line in Go?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different languages.",
+    "condition": null,
+    "tags": [
+      "language",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0270",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I set an environment variable in PowerShell?",
+    "query_b": "How do I set an environment variable in bash?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "$env:VAR vs. export VAR.",
+    "condition": null,
+    "tags": [
+      "shell",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0271",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I uninstall an app on Android?",
+    "query_b": "How do I uninstall an app on iPhone?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different UI steps.",
+    "condition": null,
+    "tags": [
+      "os",
+      "consumer"
+    ]
+  },
+  {
+    "sample_id": "SC_0272",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I install Python packages with pip behind a proxy server?",
+    "query_b": "How do I install Python packages with pip from a local wheel file with no internet access?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different flags and workflow.",
+    "condition": null,
+    "tags": [
+      "config",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0273",
+    "category": "context_constraint_sensitive",
+    "query_a": "Plan a vegetarian dinner for 4 people.",
+    "query_b": "Plan a vegan, nut-free dinner for 4 people.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Added dietary restrictions invalidate dishes.",
+    "condition": null,
+    "tags": [
+      "requirements",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0274",
+    "category": "context_constraint_sensitive",
+    "query_a": "Explain REST APIs in 3 bullet points.",
+    "query_b": "Explain REST APIs in a 1,000-word essay.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Length/format requirement differs materially.",
+    "condition": null,
+    "tags": [
+      "output-format"
+    ]
+  },
+  {
+    "sample_id": "SC_0275",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I enable two-factor authentication on Instagram?",
+    "query_b": "How do I enable two-factor authentication on Facebook?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different apps and menus.",
+    "condition": null,
+    "tags": [
+      "platform",
+      "consumer"
+    ]
+  },
+  {
+    "sample_id": "SC_0276",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I create a virtual environment in Python on Windows?",
+    "query_b": "How do I create a virtual environment in Python on Linux?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Activation differs (Scripts\\activate vs. source bin/activate).",
+    "condition": null,
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0277",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I check my IP address in the terminal on Linux?",
+    "query_b": "How do I check my IP address in the terminal on Windows?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "ip addr vs. ipconfig.",
+    "condition": null,
+    "tags": [
+      "os",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0278",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I install Python 3.8 on Ubuntu 20.04?",
+    "query_b": "How do I install Python 3.12 on Ubuntu 24.04?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different package sources and caveats.",
+    "condition": null,
+    "tags": [
+      "version",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0279",
+    "category": "context_constraint_sensitive",
+    "query_a": "Explain loops in Python for beginners, with code examples.",
+    "query_b": "Explain loops in Python for beginners, using only analogies and no code.",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Explicit no-code constraint.",
+    "condition": null,
+    "tags": [
+      "output-format",
+      "education"
+    ]
+  },
+  {
+    "sample_id": "SC_0280",
+    "category": "context_constraint_sensitive",
+    "query_a": "What's a good meal plan for one week on a $50 budget?",
+    "query_b": "What's a good meal plan for one week on a $150 budget?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Budget changes ingredients substantially.",
+    "condition": null,
+    "tags": [
+      "budget",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0281",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I sort an array of numbers ascending in JavaScript?",
+    "query_b": "How do I sort an array of numbers descending in JavaScript?",
+    "expected_decision": "miss",
+    "semantic_relationship": "constraint_changes_answer",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different comparator.",
+    "condition": null,
+    "tags": [
+      "requirements",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0282",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I install Python packages using pip on Windows?",
+    "query_b": "How do I install Python packages using pip on Ubuntu?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "constraint_may_change_answer",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "pip syntax is shared, but modern Ubuntu enforces PEP 668 (externally managed environments).",
+    "condition": "Hit if the cached response recommends python -m pip inside a virtual environment; miss if it assumes a system-wide install.",
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0283",
+    "category": "context_constraint_sensitive",
+    "query_a": "Explain bubble sort for a beginner.",
+    "query_b": "Explain bubble sort for a PhD student in computer science.",
+    "expected_decision": "conditional",
+    "semantic_relationship": "constraint_may_change_answer",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Audience level changes depth.",
+    "condition": "Hit if the cached answer is accurate and includes complexity analysis; miss if it is simplified only.",
+    "tags": [
+      "audience",
+      "education"
+    ]
+  },
+  {
+    "sample_id": "SC_0284",
+    "category": "context_constraint_sensitive",
+    "query_a": "Suggest a birthday gift for a coworker under $30.",
+    "query_b": "Suggest a birthday gift for a coworker under $25.",
+    "expected_decision": "conditional",
+    "semantic_relationship": "constraint_may_change_answer",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Budget threshold shifted slightly.",
+    "condition": "Hit if every suggestion in the cached response is priced at or below $25; otherwise miss.",
+    "tags": [
+      "budget",
+      "shopping"
+    ]
+  },
+  {
+    "sample_id": "SC_0285",
+    "category": "context_constraint_sensitive",
+    "query_a": "Summarize the plot of Hamlet in 100 words.",
+    "query_b": "Summarize the plot of Hamlet in 150 words.",
+    "expected_decision": "conditional",
+    "semantic_relationship": "constraint_may_change_answer",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Length constraint differs.",
+    "condition": "Hit only if the cache policy accepts a shorter summary for a longer request; miss under strict length matching.",
+    "tags": [
+      "output-length",
+      "writing"
+    ]
+  },
+  {
+    "sample_id": "SC_0286",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I connect to a MySQL database from Python?",
+    "query_b": "How do I connect to a MySQL database from Python 3.12 using mysql-connector-python?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "constraint_may_change_answer",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Second query names a specific library.",
+    "condition": "Hit if the cached response uses mysql-connector-python; miss if it used another driver.",
+    "tags": [
+      "library",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0287",
+    "category": "context_constraint_sensitive",
+    "query_a": "What is the best way for an adult beginner to learn guitar?",
+    "query_b": "What is the best way for an adult beginner to learn guitar with only 15 minutes a day?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "constraint_may_change_answer",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Time constraint added.",
+    "condition": "Hit if the cached answer includes a short-session practice plan; otherwise miss.",
+    "tags": [
+      "constraint",
+      "education"
+    ]
+  },
+  {
+    "sample_id": "SC_0288",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I export a pandas DataFrame to a file?",
+    "query_b": "How do I export a pandas DataFrame to an Excel file?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "constraint_may_change_answer",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Second query specifies Excel.",
+    "condition": "Hit if the cached response covers to_excel (and openpyxl); miss if it only covers CSV.",
+    "tags": [
+      "format",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0289",
+    "category": "context_constraint_sensitive",
+    "query_a": "Give me a recipe for chocolate chip cookies.",
+    "query_b": "Give me a recipe for chocolate chip cookies that makes 48 cookies.",
+    "expected_decision": "conditional",
+    "semantic_relationship": "constraint_may_change_answer",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Yield constraint added.",
+    "condition": "Hit if the cached recipe yields about 48 or the system rescales quantities; otherwise miss.",
+    "tags": [
+      "quantity",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0290",
+    "category": "context_constraint_sensitive",
+    "query_a": "How do I install packages in R?",
+    "query_b": "How do I install packages in R on Ubuntu?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "constraint_may_change_answer",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "install.packages() is OS-agnostic but Ubuntu may need build tools/system libraries.",
+    "condition": "Hit if the cached response mentions system dependencies or the package is pure R; miss otherwise.",
+    "tags": [
+      "os",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0291",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Redis?",
+    "query_b": "Explain how to configure Redis as a distributed caching layer in a production application.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "A definition does not cover production configuration.",
+    "condition": null,
+    "tags": [
+      "definition-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0292",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Docker?",
+    "query_b": "How do I write a Dockerfile for a Node.js app?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Definition does not include a Dockerfile.",
+    "condition": null,
+    "tags": [
+      "definition-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0293",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Kubernetes?",
+    "query_b": "How do I troubleshoot a pod stuck in CrashLoopBackOff?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Troubleshooting needs specific steps.",
+    "condition": null,
+    "tags": [
+      "concept-vs-troubleshooting"
+    ]
+  },
+  {
+    "sample_id": "SC_0294",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Summarize the causes of World War I in two sentences.",
+    "query_b": "Give a detailed analysis of the causes of World War I with historical context.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "A two-sentence summary is insufficient.",
+    "condition": null,
+    "tags": [
+      "summary-vs-detailed"
+    ]
+  },
+  {
+    "sample_id": "SC_0295",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Name one benefit of exercise.",
+    "query_b": "List all major health benefits of regular exercise.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "One item cannot satisfy a comprehensive list.",
+    "condition": null,
+    "tags": [
+      "one-vs-list"
+    ]
+  },
+  {
+    "sample_id": "SC_0296",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is a REST API?",
+    "query_b": "How do I design and secure a REST API for a banking app?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "High-stakes design needs far more than a definition.",
+    "condition": null,
+    "tags": [
+      "concept-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0297",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is SQL injection?",
+    "query_b": "How do I fix SQL injection in my PHP login form?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Remediation requires code-level guidance.",
+    "condition": null,
+    "tags": [
+      "concept-vs-troubleshooting"
+    ]
+  },
+  {
+    "sample_id": "SC_0298",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is the capital of France?",
+    "query_b": "What is the capital of France, its population, and its main landmarks?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Cached answer covers only the first sub-question.",
+    "condition": null,
+    "tags": [
+      "multi-subquestion"
+    ]
+  },
+  {
+    "sample_id": "SC_0299",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is machine learning?",
+    "query_b": "What is machine learning, how does it differ from deep learning, and what are its main types?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Three sub-questions vs. one.",
+    "condition": null,
+    "tags": [
+      "multi-subquestion"
+    ]
+  },
+  {
+    "sample_id": "SC_0300",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is a binary tree?",
+    "query_b": "Implement a balanced binary search tree in Python with insertion and deletion.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Needs working code.",
+    "condition": null,
+    "tags": [
+      "definition-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0301",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Give me a brief overview of the Roman Empire.",
+    "query_b": "Walk me through the political structure of the Roman Empire during the reign of Augustus.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Requires specific detail an overview lacks.",
+    "condition": null,
+    "tags": [
+      "overview-vs-specific"
+    ]
+  },
+  {
+    "sample_id": "SC_0302",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is HTTPS?",
+    "query_b": "Why is my site showing a 'certificate not valid' error on HTTPS?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Troubleshooting a specific error.",
+    "condition": null,
+    "tags": [
+      "concept-vs-troubleshooting"
+    ]
+  },
+  {
+    "sample_id": "SC_0303",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is inflation?",
+    "query_b": "How can I protect my savings from inflation?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Advice differs from definition.",
+    "condition": null,
+    "tags": [
+      "definition-vs-advice"
+    ]
+  },
+  {
+    "sample_id": "SC_0304",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Git?",
+    "query_b": "How do I resolve a merge conflict in Git?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Procedural vs. conceptual.",
+    "condition": null,
+    "tags": [
+      "definition-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0305",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Name one famous painting by Van Gogh.",
+    "query_b": "List Van Gogh's most famous paintings with their dates.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "List with dates exceeds a single item.",
+    "condition": null,
+    "tags": [
+      "one-vs-list"
+    ]
+  },
+  {
+    "sample_id": "SC_0306",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What does a CPU do?",
+    "query_b": "How do I choose a CPU for a gaming PC and which specs matter?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Purchase guidance, not a definition.",
+    "condition": null,
+    "tags": [
+      "concept-vs-advice"
+    ]
+  },
+  {
+    "sample_id": "SC_0307",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is TCP?",
+    "query_b": "Explain the TCP three-way handshake and how to capture it with Wireshark.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Adds a specific mechanism and a tool workflow.",
+    "condition": null,
+    "tags": [
+      "concept-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0308",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is a vaccine?",
+    "query_b": "What is a vaccine and what are the main types, such as mRNA, viral vector, and inactivated?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Adds a taxonomy.",
+    "condition": null,
+    "tags": [
+      "multi-subquestion"
+    ]
+  },
+  {
+    "sample_id": "SC_0309",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Briefly, what is photosynthesis?",
+    "query_b": "Explain the light-dependent and light-independent reactions of photosynthesis in detail.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Detailed mechanism required.",
+    "condition": null,
+    "tags": [
+      "brief-vs-detailed"
+    ]
+  },
+  {
+    "sample_id": "SC_0310",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Python?",
+    "query_b": "What are the differences between Python and Rust for backend development, and when should I choose each?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Comparison and decision guidance.",
+    "condition": null,
+    "tags": [
+      "definition-vs-comparison"
+    ]
+  },
+  {
+    "sample_id": "SC_0311",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is cloud computing?",
+    "query_b": "How do I migrate an on-premises database to the cloud with minimal downtime?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different intent.",
+    "condition": null,
+    "tags": [
+      "concept-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0312",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "How do I create a table in SQL?",
+    "query_b": "How do I create a table in SQL, add a foreign key, and index it?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Adds two more tasks.",
+    "condition": null,
+    "tags": [
+      "multi-subquestion"
+    ]
+  },
+  {
+    "sample_id": "SC_0313",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is a mortgage?",
+    "query_b": "How do I compare fixed-rate and adjustable-rate mortgages for a first home?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Financial decision guidance.",
+    "condition": null,
+    "tags": [
+      "definition-vs-advice"
+    ]
+  },
+  {
+    "sample_id": "SC_0314",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Give me a one-line summary of Hamlet.",
+    "query_b": "Summarize each act of Hamlet.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Act-by-act coverage required.",
+    "condition": null,
+    "tags": [
+      "summary-vs-detailed"
+    ]
+  },
+  {
+    "sample_id": "SC_0315",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is a firewall?",
+    "query_b": "How do I configure UFW on Ubuntu to allow only SSH and HTTPS?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Specific commands needed.",
+    "condition": null,
+    "tags": [
+      "concept-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0316",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What causes climate change?",
+    "query_b": "What causes climate change and what are the most effective ways to mitigate it?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Adds mitigation.",
+    "condition": null,
+    "tags": [
+      "multi-subquestion"
+    ]
+  },
+  {
+    "sample_id": "SC_0317",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is a neural network?",
+    "query_b": "Write PyTorch code for a simple neural-network classifier.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Requires code.",
+    "condition": null,
+    "tags": [
+      "definition-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0318",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is the French Revolution?",
+    "query_b": "What was the role of the Estates-General in the French Revolution?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Narrow detail not guaranteed by an overview.",
+    "condition": null,
+    "tags": [
+      "overview-vs-specific"
+    ]
+  },
+  {
+    "sample_id": "SC_0319",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Terraform?",
+    "query_b": "Why does terraform apply fail with a state lock error?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Specific error diagnosis.",
+    "condition": null,
+    "tags": [
+      "concept-vs-troubleshooting"
+    ]
+  },
+  {
+    "sample_id": "SC_0320",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Describe how a car engine works.",
+    "query_b": "Why does my car engine stall at idle?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Diagnostic question.",
+    "condition": null,
+    "tags": [
+      "concept-vs-troubleshooting"
+    ]
+  },
+  {
+    "sample_id": "SC_0321",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is diabetes?",
+    "query_b": "How is gestational diabetes diagnosed and managed?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Specific clinical topic.",
+    "condition": null,
+    "tags": [
+      "definition-vs-specific"
+    ]
+  },
+  {
+    "sample_id": "SC_0322",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "How do I start learning to code?",
+    "query_b": "Give me a 12-week study plan to learn Python for data analysis.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Structured plan with a specific goal.",
+    "condition": null,
+    "tags": [
+      "general-vs-specific"
+    ]
+  },
+  {
+    "sample_id": "SC_0323",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is a hash table?",
+    "query_b": "Compare the time complexity of hash table operations with balanced trees.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Requires complexity analysis.",
+    "condition": null,
+    "tags": [
+      "definition-vs-comparison"
+    ]
+  },
+  {
+    "sample_id": "SC_0324",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is the stock market?",
+    "query_b": "How do I pick index funds for long-term investing?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Investment guidance.",
+    "condition": null,
+    "tags": [
+      "definition-vs-advice"
+    ]
+  },
+  {
+    "sample_id": "SC_0325",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is a CDN?",
+    "query_b": "How do I configure Cloudflare as a CDN for a WordPress site?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Platform-specific configuration.",
+    "condition": null,
+    "tags": [
+      "concept-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0326",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Elasticsearch?",
+    "query_b": "How do I tune Elasticsearch shard allocation for a 2 TB index?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Advanced tuning.",
+    "condition": null,
+    "tags": [
+      "definition-vs-implementation"
+    ]
+  },
+  {
+    "sample_id": "SC_0327",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is the Pythagorean theorem?",
+    "query_b": "Prove the Pythagorean theorem in at least two different ways.",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Proofs are not in a statement.",
+    "condition": null,
+    "tags": [
+      "definition-vs-proof"
+    ]
+  },
+  {
+    "sample_id": "SC_0328",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Linux?",
+    "query_b": "How do I recover a forgotten root password on Linux?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Recovery procedure.",
+    "condition": null,
+    "tags": [
+      "concept-vs-troubleshooting"
+    ]
+  },
+  {
+    "sample_id": "SC_0329",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is the Renaissance?",
+    "query_b": "What was the Renaissance, and how did it influence modern science, art, and politics?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Three influence areas.",
+    "condition": null,
+    "tags": [
+      "multi-subquestion"
+    ]
+  },
+  {
+    "sample_id": "SC_0330",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Elasticsearch used for?",
+    "query_b": "Elasticsearch vs. Solr: which is better for e-commerce search?",
+    "expected_decision": "miss",
+    "semantic_relationship": "incoming_exceeds_cached_scope",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Comparison and recommendation.",
+    "condition": null,
+    "tags": [
+      "concept-vs-comparison"
+    ]
+  },
+  {
+    "sample_id": "SC_0331",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Redis?",
+    "query_b": "Can you give me a quick overview of what Redis is?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same scope; equivalent intent.",
+    "condition": null,
+    "tags": [
+      "same-scope"
+    ]
+  },
+  {
+    "sample_id": "SC_0332",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Give me a detailed explanation of how HTTPS works.",
+    "query_b": "How does HTTPS work?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "A detailed answer satisfies the general question.",
+    "condition": null,
+    "tags": [
+      "detailed-covers-short"
+    ]
+  },
+  {
+    "sample_id": "SC_0333",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Explain in detail how a bill becomes law in the United States.",
+    "query_b": "Briefly, how does a bill become a law in the US?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Detailed answer covers the brief request.",
+    "condition": null,
+    "tags": [
+      "detailed-covers-brief"
+    ]
+  },
+  {
+    "sample_id": "SC_0334",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "List all the planets in the solar system.",
+    "query_b": "What are the planets in our solar system?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same list.",
+    "condition": null,
+    "tags": [
+      "same-scope"
+    ]
+  },
+  {
+    "sample_id": "SC_0335",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What are the primary colors, and why are they called primary?",
+    "query_b": "What are the primary colors?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Cached answer contains the requested item.",
+    "condition": null,
+    "tags": [
+      "superset-covers-subset"
+    ]
+  },
+  {
+    "sample_id": "SC_0336",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is the difference between TCP and UDP?",
+    "query_b": "Compare TCP and UDP.",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Equivalent comparison.",
+    "condition": null,
+    "tags": [
+      "same-scope"
+    ]
+  },
+  {
+    "sample_id": "SC_0337",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Explain what a database index is and when to use one.",
+    "query_b": "What is a database index?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Cached answer includes the definition.",
+    "condition": null,
+    "tags": [
+      "superset-covers-subset"
+    ]
+  },
+  {
+    "sample_id": "SC_0338",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Give a thorough explanation of the water cycle.",
+    "query_b": "What is the water cycle?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Thorough answer subsumes definition.",
+    "condition": null,
+    "tags": [
+      "detailed-covers-short"
+    ]
+  },
+  {
+    "sample_id": "SC_0339",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Git and why do developers use it?",
+    "query_b": "What is Git used for?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Second question is covered by the first.",
+    "condition": null,
+    "tags": [
+      "superset-covers-subset"
+    ]
+  },
+  {
+    "sample_id": "SC_0340",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Summarize the plot of Romeo and Juliet.",
+    "query_b": "What happens in Romeo and Juliet?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Equivalent request.",
+    "condition": null,
+    "tags": [
+      "same-scope"
+    ]
+  },
+  {
+    "sample_id": "SC_0341",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Explain the stages of mitosis.",
+    "query_b": "What are the phases of mitosis?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Stages and phases are synonymous.",
+    "condition": null,
+    "tags": [
+      "same-scope"
+    ]
+  },
+  {
+    "sample_id": "SC_0342",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What are the SOLID principles in software design?",
+    "query_b": "Explain the SOLID principles.",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Equivalent request.",
+    "condition": null,
+    "tags": [
+      "same-scope"
+    ]
+  },
+  {
+    "sample_id": "SC_0343",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Give a thorough explanation of how DNS resolution works.",
+    "query_b": "How does DNS work?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Thorough answer subsumes the short one.",
+    "condition": null,
+    "tags": [
+      "detailed-covers-short"
+    ]
+  },
+  {
+    "sample_id": "SC_0344",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "List the steps of the scientific method.",
+    "query_b": "What are the steps in the scientific method?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Equivalent request.",
+    "condition": null,
+    "tags": [
+      "same-scope"
+    ]
+  },
+  {
+    "sample_id": "SC_0345",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Explain in depth what object-oriented programming is.",
+    "query_b": "Briefly, what is OOP?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "In-depth answer covers the brief request.",
+    "condition": null,
+    "tags": [
+      "detailed-covers-brief"
+    ]
+  },
+  {
+    "sample_id": "SC_0346",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is a closure in JavaScript, with an example?",
+    "query_b": "What is a JavaScript closure?",
+    "expected_decision": "hit",
+    "semantic_relationship": "incoming_covered_by_cached",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Cached answer includes the definition.",
+    "condition": null,
+    "tags": [
+      "superset-covers-subset"
+    ]
+  },
+  {
+    "sample_id": "SC_0347",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "List the planets in the solar system.",
+    "query_b": "How many planets are in the solar system?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "partial_overlap_conditional",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Count is derivable from a complete list.",
+    "condition": "Hit if the cached list is complete (eight planets) and the system can answer a count from it; miss otherwise.",
+    "tags": [
+      "list-vs-count"
+    ]
+  },
+  {
+    "sample_id": "SC_0348",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "What is Redis?",
+    "query_b": "What is Redis used for?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "partial_overlap_conditional",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Use cases may or may not be included in a definition.",
+    "condition": "Hit if the cached definition lists typical use cases (caching, queues, sessions); miss otherwise.",
+    "tags": [
+      "definition-vs-use-cases"
+    ]
+  },
+  {
+    "sample_id": "SC_0349",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Explain the difference between supervised and unsupervised learning.",
+    "query_b": "Give an example of supervised learning.",
+    "expected_decision": "conditional",
+    "semantic_relationship": "partial_overlap_conditional",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "An example may be present in the cached text.",
+    "condition": "Hit if the cached explanation contains at least one concrete supervised-learning example; miss otherwise.",
+    "tags": [
+      "concept-vs-example"
+    ]
+  },
+  {
+    "sample_id": "SC_0350",
+    "category": "multi_intent_partial_overlap",
+    "query_a": "Describe the plot of The Odyssey.",
+    "query_b": "Who is Penelope in The Odyssey?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "partial_overlap_conditional",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Penelope may or may not appear in the plot summary.",
+    "condition": "Hit if the cached summary identifies Penelope and her role; miss otherwise.",
+    "tags": [
+      "overview-vs-specific"
+    ]
+  },
+  {
+    "sample_id": "SC_0351",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What is the best bank?",
+    "query_b": "What is the best bank for a student living in Canada?",
+    "expected_decision": "miss",
+    "semantic_relationship": "missing_context",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Unqualified query has no defined answer; the specific one needs locale and user type.",
+    "condition": null,
+    "tags": [
+      "ambiguous",
+      "finance"
+    ]
+  },
+  {
+    "sample_id": "SC_0352",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Is this medication safe?",
+    "query_b": "Is this medication safe for someone taking another prescription medication?",
+    "expected_decision": "miss",
+    "semantic_relationship": "missing_context",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Interaction risk is the entire point of the second query; reuse could be dangerous.",
+    "condition": null,
+    "tags": [
+      "medical",
+      "interaction"
+    ]
+  },
+  {
+    "sample_id": "SC_0353",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Is it safe to take ibuprofen?",
+    "query_b": "Is it safe to take ibuprofen during pregnancy?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_assumptions",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Pregnancy changes the safety answer materially.",
+    "condition": null,
+    "tags": [
+      "medical",
+      "pregnancy"
+    ]
+  },
+  {
+    "sample_id": "SC_0354",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "How much should I take?",
+    "query_b": "How much acetaminophen should a 6-year-old take?",
+    "expected_decision": "miss",
+    "semantic_relationship": "missing_context",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Dosage depends on age/weight/product; a generic answer is unsafe.",
+    "condition": null,
+    "tags": [
+      "medical",
+      "dosage",
+      "child"
+    ]
+  },
+  {
+    "sample_id": "SC_0355",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Can I eat this?",
+    "query_b": "Can I eat this if I have a shellfish allergy?",
+    "expected_decision": "miss",
+    "semantic_relationship": "missing_context",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Allergy constraint changes safety; query A has no determinable referent.",
+    "condition": null,
+    "tags": [
+      "allergy",
+      "food"
+    ]
+  },
+  {
+    "sample_id": "SC_0356",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "How do I turn it off?",
+    "query_b": "How do I turn off my router?",
+    "expected_decision": "miss",
+    "semantic_relationship": "missing_context",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Referent of 'it' is undefined in A.",
+    "condition": null,
+    "tags": [
+      "ambiguous",
+      "tech-support"
+    ]
+  },
+  {
+    "sample_id": "SC_0357",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "How big is Mercury?",
+    "query_b": "How big is the element mercury?",
+    "expected_decision": "miss",
+    "semantic_relationship": "ambiguous_entity",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Planet vs. chemical element.",
+    "condition": null,
+    "tags": [
+      "ambiguous",
+      "entity"
+    ]
+  },
+  {
+    "sample_id": "SC_0358",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What is the best Python framework?",
+    "query_b": "What is the best Python framework for a high-traffic real-time chat app?",
+    "expected_decision": "miss",
+    "semantic_relationship": "missing_context",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Recommendation depends on requirements.",
+    "condition": null,
+    "tags": [
+      "ambiguous",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0359",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Who is the president?",
+    "query_b": "Who is the president of France?",
+    "expected_decision": "miss",
+    "semantic_relationship": "missing_context",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Country is undefined in A.",
+    "condition": null,
+    "tags": [
+      "ambiguous",
+      "politics"
+    ]
+  },
+  {
+    "sample_id": "SC_0360",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What is the current price of Bitcoin?",
+    "query_b": "What's Bitcoin trading at right now?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "medium",
+    "reason": "Equivalent intent but the value changes by the minute.",
+    "condition": "Hit only if the cached response is younger than the volatile-data TTL (minutes); otherwise miss.",
+    "tags": [
+      "freshness",
+      "finance",
+      "volatile"
+    ]
+  },
+  {
+    "sample_id": "SC_0361",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What's the weather in London today?",
+    "query_b": "What is the weather like in London right now?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Weather changes within hours.",
+    "condition": "Hit only if the cached response is within about one hour; otherwise miss.",
+    "tags": [
+      "freshness",
+      "weather",
+      "volatile"
+    ]
+  },
+  {
+    "sample_id": "SC_0362",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Who is the current prime minister of the United Kingdom?",
+    "query_b": "Who is the UK's PM at the moment?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Officeholder can change.",
+    "condition": "Hit if the cached response is younger than the semi-stable TTL and no change event is known; otherwise miss.",
+    "tags": [
+      "freshness",
+      "politics",
+      "semi-stable"
+    ]
+  },
+  {
+    "sample_id": "SC_0363",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What is the latest version of Python?",
+    "query_b": "Which Python release is the newest?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Releases occur regularly.",
+    "condition": "Hit only within the semi-stable TTL; miss if a newer release exists.",
+    "tags": [
+      "freshness",
+      "software",
+      "semi-stable"
+    ]
+  },
+  {
+    "sample_id": "SC_0364",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What is the exchange rate from USD to EUR?",
+    "query_b": "How many euros is one US dollar?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "medium",
+    "reason": "Same intent; rate fluctuates.",
+    "condition": "Hit only within the volatile-data TTL; otherwise miss.",
+    "tags": [
+      "freshness",
+      "finance",
+      "volatile"
+    ]
+  },
+  {
+    "sample_id": "SC_0365",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What are the latest travel guidelines for entering Japan?",
+    "query_b": "What are the current entry requirements for travelers to Japan?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "high",
+    "reason": "Regulations change; stale guidance could strand a traveler.",
+    "condition": "Hit only if the cached response is within the regulation TTL and cites a verifiable source date; otherwise miss.",
+    "tags": [
+      "freshness",
+      "travel",
+      "regulation"
+    ]
+  },
+  {
+    "sample_id": "SC_0366",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Who won the most recent Super Bowl?",
+    "query_b": "Which team took the latest Super Bowl?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Changes annually.",
+    "condition": "Hit if no new Super Bowl has occurred since the cached response was generated; otherwise miss.",
+    "tags": [
+      "freshness",
+      "sports",
+      "semi-stable"
+    ]
+  },
+  {
+    "sample_id": "SC_0367",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Is the Eiffel Tower open today?",
+    "query_b": "Is the Eiffel Tower open right now?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Opening state depends on the date and time.",
+    "condition": "Hit only if both queries refer to the same calendar day and time window; otherwise miss.",
+    "tags": [
+      "freshness",
+      "live-status"
+    ]
+  },
+  {
+    "sample_id": "SC_0368",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What is the current US federal minimum wage?",
+    "query_b": "What's the federal minimum wage in the United States right now?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "medium",
+    "reason": "Changes only by legislation but is legally consequential.",
+    "condition": "Hit within the semi-stable TTL if no legislative change is known; otherwise miss.",
+    "tags": [
+      "freshness",
+      "law",
+      "semi-stable"
+    ]
+  },
+  {
+    "sample_id": "SC_0369",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What is the current US inflation rate?",
+    "query_b": "What is the US inflation rate at the moment?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "medium",
+    "reason": "Published monthly.",
+    "condition": "Hit if no new monthly release occurred since the cached response; otherwise miss.",
+    "tags": [
+      "freshness",
+      "economics",
+      "periodic"
+    ]
+  },
+  {
+    "sample_id": "SC_0370",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Is the New York Stock Exchange open today?",
+    "query_b": "Is the NYSE trading today?",
+    "expected_decision": "conditional",
+    "semantic_relationship": "time_sensitive",
+    "same_answer_required": null,
+    "risk_level": "low",
+    "reason": "Depends on date (holidays/weekends).",
+    "condition": "Hit only if both queries fall on the same calendar day; otherwise miss.",
+    "tags": [
+      "freshness",
+      "finance",
+      "live-status"
+    ]
+  },
+  {
+    "sample_id": "SC_0371",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What was the closing price of Apple stock yesterday?",
+    "query_b": "What was the closing price of Apple stock last Friday?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_time_reference",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Different dates, different prices.",
+    "condition": null,
+    "tags": [
+      "date",
+      "finance"
+    ]
+  },
+  {
+    "sample_id": "SC_0372",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What are the top news headlines today?",
+    "query_b": "What were the top news headlines yesterday?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_time_reference",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Different days.",
+    "condition": null,
+    "tags": [
+      "date",
+      "news"
+    ]
+  },
+  {
+    "sample_id": "SC_0373",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Which foods are safe to eat with a peanut allergy?",
+    "query_b": "Which foods contain peanuts?",
+    "expected_decision": "miss",
+    "semantic_relationship": "negation_flip",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Safe foods and peanut-containing foods are different lists; wrong reuse could be dangerous.",
+    "condition": null,
+    "tags": [
+      "negation",
+      "allergy"
+    ]
+  },
+  {
+    "sample_id": "SC_0374",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Which of these is not a mammal: whale, bat, shark?",
+    "query_b": "Among whale, bat, and shark, which one is not a mammal?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent_negation",
+    "same_answer_required": true,
+    "risk_level": "low",
+    "reason": "Same negated question; same answer (shark).",
+    "condition": null,
+    "tags": [
+      "negation",
+      "biology"
+    ]
+  },
+  {
+    "sample_id": "SC_0375",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "List programming languages that are not object-oriented.",
+    "query_b": "List object-oriented programming languages.",
+    "expected_decision": "miss",
+    "semantic_relationship": "negation_flip",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Complementary sets.",
+    "condition": null,
+    "tags": [
+      "negation",
+      "programming"
+    ]
+  },
+  {
+    "sample_id": "SC_0376",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "How do I install a package on Ubuntu without sudo?",
+    "query_b": "How do I install a package on Ubuntu with sudo?",
+    "expected_decision": "miss",
+    "semantic_relationship": "negation_flip",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Different procedures.",
+    "condition": null,
+    "tags": [
+      "negation",
+      "sysadmin"
+    ]
+  },
+  {
+    "sample_id": "SC_0377",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What should I avoid eating when taking warfarin?",
+    "query_b": "What should I eat when taking warfarin?",
+    "expected_decision": "miss",
+    "semantic_relationship": "negation_flip",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Avoidance vs. recommendation; vitamin K guidance is nuanced.",
+    "condition": null,
+    "tags": [
+      "negation",
+      "medical"
+    ]
+  },
+  {
+    "sample_id": "SC_0378",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Which countries are not members of the United Nations?",
+    "query_b": "Which countries are members of the United Nations?",
+    "expected_decision": "miss",
+    "semantic_relationship": "negation_flip",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Complementary sets of very different size.",
+    "condition": null,
+    "tags": [
+      "negation",
+      "politics"
+    ]
+  },
+  {
+    "sample_id": "SC_0379",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "How do I delete all files except .txt files in a folder?",
+    "query_b": "How do I delete only .txt files in a folder?",
+    "expected_decision": "miss",
+    "semantic_relationship": "negation_flip",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Opposite deletion sets; wrong reuse causes data loss.",
+    "condition": null,
+    "tags": [
+      "negation",
+      "data-loss"
+    ]
+  },
+  {
+    "sample_id": "SC_0380",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Which medications are not safe during pregnancy?",
+    "query_b": "Which medications are safe during pregnancy?",
+    "expected_decision": "miss",
+    "semantic_relationship": "negation_flip",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Complementary sets in a high-risk domain.",
+    "condition": null,
+    "tags": [
+      "negation",
+      "medical",
+      "pregnancy"
+    ]
+  },
+  {
+    "sample_id": "SC_0381",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Write a 10-word summary of the French Revolution in at least 500 words.",
+    "query_b": "Write a 500-word summary of the French Revolution.",
+    "expected_decision": "miss",
+    "semantic_relationship": "contradictory_requirements",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "A contains conflicting length constraints needing clarification; B is coherent.",
+    "condition": null,
+    "tags": [
+      "contradiction",
+      "writing"
+    ]
+  },
+  {
+    "sample_id": "SC_0382",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Give me a vegan recipe that uses chicken.",
+    "query_b": "Give me a chicken recipe.",
+    "expected_decision": "miss",
+    "semantic_relationship": "contradictory_requirements",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "A is self-contradictory; B is straightforward.",
+    "condition": null,
+    "tags": [
+      "contradiction",
+      "cooking"
+    ]
+  },
+  {
+    "sample_id": "SC_0383",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "How can I make my app both fully offline and constantly synced to the cloud?",
+    "query_b": "How can I sync my app data to the cloud when it comes back online?",
+    "expected_decision": "miss",
+    "semantic_relationship": "contradictory_requirements",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "A has conflicting requirements; B describes an offline-first sync pattern.",
+    "condition": null,
+    "tags": [
+      "contradiction",
+      "architecture"
+    ]
+  },
+  {
+    "sample_id": "SC_0384",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "How can I make my website load instantly while adding heavy videos and animations everywhere?",
+    "query_b": "How can I make my website load faster?",
+    "expected_decision": "miss",
+    "semantic_relationship": "contradictory_requirements",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "A has competing goals needing trade-offs.",
+    "condition": null,
+    "tags": [
+      "contradiction",
+      "web"
+    ]
+  },
+  {
+    "sample_id": "SC_0385",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "How long will it take to drive from Los Angeles to San Francisco?",
+    "query_b": "How long will it take to drive from Los Angeles to San Francisco if I take the scenic Highway 1 route?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_assumptions",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Route changes the duration substantially.",
+    "condition": null,
+    "tags": [
+      "assumption",
+      "travel"
+    ]
+  },
+  {
+    "sample_id": "SC_0386",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "How much tax will I owe on $80,000 in income?",
+    "query_b": "How much tax will I owe on $80,000 in income in Germany?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_assumptions",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Jurisdiction determines the answer.",
+    "condition": null,
+    "tags": [
+      "assumption",
+      "tax",
+      "jurisdiction"
+    ]
+  },
+  {
+    "sample_id": "SC_0387",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Is it legal to record a phone call?",
+    "query_b": "Is it legal to record a phone call in California?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_assumptions",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Consent laws vary by jurisdiction.",
+    "condition": null,
+    "tags": [
+      "assumption",
+      "law",
+      "jurisdiction"
+    ]
+  },
+  {
+    "sample_id": "SC_0388",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What is the recommended dosage of vitamin D?",
+    "query_b": "What is the recommended dosage of vitamin D for infants?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_assumptions",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Population-specific dosing.",
+    "condition": null,
+    "tags": [
+      "assumption",
+      "medical",
+      "infant"
+    ]
+  },
+  {
+    "sample_id": "SC_0389",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Is it okay to give honey to a baby?",
+    "query_b": "Is it okay to give honey to a 2-year-old?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_assumptions",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Infant botulism risk applies under 12 months; answers differ.",
+    "condition": null,
+    "tags": [
+      "assumption",
+      "medical",
+      "age"
+    ]
+  },
+  {
+    "sample_id": "SC_0390",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Can I stop taking my blood pressure medication if my readings look normal?",
+    "query_b": "Can I stop taking my blood pressure medication if I feel dizzy?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_assumptions",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "Different circumstances; both need clinician guidance but not the same response.",
+    "condition": null,
+    "tags": [
+      "medical",
+      "medication"
+    ]
+  },
+  {
+    "sample_id": "SC_0391",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Is it safe to drink alcohol while on antidepressants?",
+    "query_b": "Is it safe to drink alcohol?",
+    "expected_decision": "miss",
+    "semantic_relationship": "missing_context",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "General query lacks the medication context.",
+    "condition": null,
+    "tags": [
+      "medical",
+      "interaction"
+    ]
+  },
+  {
+    "sample_id": "SC_0392",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What is the best treatment for a headache?",
+    "query_b": "What is the best treatment for a headache that comes with a stiff neck and fever?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_assumptions",
+    "same_answer_required": false,
+    "risk_level": "high",
+    "reason": "These symptoms may indicate an emergency; a generic answer is unsafe.",
+    "condition": null,
+    "tags": [
+      "medical",
+      "emergency"
+    ]
+  },
+  {
+    "sample_id": "SC_0393",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "How much money do I need to retire?",
+    "query_b": "How much money do I need to retire at 45 in Spain?",
+    "expected_decision": "miss",
+    "semantic_relationship": "different_assumptions",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Depends on age, country, and expenses.",
+    "condition": null,
+    "tags": [
+      "finance",
+      "location"
+    ]
+  },
+  {
+    "sample_id": "SC_0394",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Which programming language should I learn?",
+    "query_b": "Which programming language should I learn to build iPhone apps?",
+    "expected_decision": "miss",
+    "semantic_relationship": "missing_context",
+    "same_answer_required": false,
+    "risk_level": "low",
+    "reason": "Goal changes the answer.",
+    "condition": null,
+    "tags": [
+      "ambiguous",
+      "education"
+    ]
+  },
+  {
+    "sample_id": "SC_0395",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "What's the legal drinking age?",
+    "query_b": "What's the legal drinking age in Japan?",
+    "expected_decision": "miss",
+    "semantic_relationship": "missing_context",
+    "same_answer_required": false,
+    "risk_level": "medium",
+    "reason": "Jurisdiction is missing in A.",
+    "condition": null,
+    "tags": [
+      "law",
+      "jurisdiction"
+    ]
+  },
+  {
+    "sample_id": "SC_0396",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Is it safe to mix bleach and ammonia?",
+    "query_b": "Can you safely combine ammonia with bleach?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent_high_risk",
+    "same_answer_required": true,
+    "risk_level": "high",
+    "reason": "Same question; answer is a consistent warning.",
+    "condition": null,
+    "tags": [
+      "safety",
+      "household"
+    ]
+  },
+  {
+    "sample_id": "SC_0397",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Is it safe to leave a child alone in a car for a few minutes?",
+    "query_b": "Can I leave my kid alone in a parked car briefly?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent_high_risk",
+    "same_answer_required": true,
+    "risk_level": "high",
+    "reason": "Same question; consistent safety answer.",
+    "condition": null,
+    "tags": [
+      "safety",
+      "child"
+    ]
+  },
+  {
+    "sample_id": "SC_0398",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Can I take ibuprofen and acetaminophen together?",
+    "query_b": "Is it OK to take Advil and Tylenol at the same time?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent_high_risk",
+    "same_answer_required": true,
+    "risk_level": "high",
+    "reason": "Brand and generic names refer to the same drugs.",
+    "condition": null,
+    "tags": [
+      "medical",
+      "brand-names"
+    ]
+  },
+  {
+    "sample_id": "SC_0399",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Should I invest all my savings in a single stock?",
+    "query_b": "Is it wise to put my entire savings into one company's shares?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent_high_risk",
+    "same_answer_required": true,
+    "risk_level": "medium",
+    "reason": "Same question; consistent diversification guidance.",
+    "condition": null,
+    "tags": [
+      "finance",
+      "risk"
+    ]
+  },
+  {
+    "sample_id": "SC_0400",
+    "category": "ambiguous_unanswerable_risky",
+    "query_a": "Should I ignore a smoke detector that keeps beeping?",
+    "query_b": "My smoke alarm keeps beeping - can I just ignore it?",
+    "expected_decision": "hit",
+    "semantic_relationship": "equivalent_high_risk",
+    "same_answer_required": true,
+    "risk_level": "high",
+    "reason": "Same question; consistent answer (do not ignore).",
+    "condition": null,
+    "tags": [
+      "safety",
+      "household"
+    ]
+  }
+]
