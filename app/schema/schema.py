@@ -4,7 +4,7 @@ class ChatRequest(BaseModel):
     prompt: str = Field(..., min_length=1, description="The input text or question")
     model: str | None = Field(
         default=None,
-        examples=["llama-3.1-8b-instant"],
+        examples=["openai/gpt-oss-20b"],
         description="Override the default model from config"
     ) 
     temperature: float = Field(
