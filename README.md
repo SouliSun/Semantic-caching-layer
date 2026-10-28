@@ -68,7 +68,7 @@ pip install fastapi uvicorn openai fastembed redis pydantic
 ### 2. Configure Environment (`.env`)
 ```env
 GROQ_API_KEY="your-groq-api-key"
-DEFAULT_MODEL="llama-3.1-8b-instant"
+DEFAULT_MODEL="openai/gpt-oss-20b"
 REDIS_URL="rediss://default:password@endpoint.upstash.io:6379"
 ```
 
