@@ -1,10 +1,10 @@
-# Semantic Caching Layer for LLM APIs ⚡
+# Semantic Caching Layer for LLM APIs
 
 A high-performance middleware caching gateway that sits between client applications and LLM providers (e.g., Groq, OpenAI). It detects semantically equivalent queries using local vector embeddings, serving cached responses in **< 15ms** at **$0 cost**.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Client Request
@@ -30,10 +30,10 @@ FastAPI Gateway (Non-blocking async)
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Two-Tier (L1/L2) Storage**: Sub-millisecond reads from local RAM; durable write-through cloud persistence in Redis.
-- **$O(1)$ Bounded Startup Hydration**: Uses a capped Redis list (`LRANGE 0 999`) to prevent network spikes at boot.
+- **O(1) Bounded Startup Hydration**: Uses a capped Redis list (`LRANGE 0 999`) to prevent network spikes at boot.
 - **Model & Temperature Isolation**: Guarantees requests for high-tier models or creative temperatures never cross-contaminate.
 - **Freshness & Temporal Safety**: Phrase-aware regex excludes time-sensitive questions (*"today"*, *"this week"*, *"stocks"*) from reads and writes.
 - **Client Cache-Control**: Supports explicit `no_cache: true` overrides.
@@ -41,7 +41,7 @@ FastAPI Gateway (Non-blocking async)
 
 ---
 
-## 📊 Benchmark Results (400 Adversarial Pairs)
+## Benchmark Results (400 Adversarial Pairs)
 
 Evaluated against a 400-sample pairwise dataset including paraphrases and lexical hard negatives:
 
@@ -53,7 +53,7 @@ Evaluated against a 400-sample pairwise dataset including paraphrases and lexica
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 ```powershell
@@ -68,7 +68,7 @@ pip install fastapi uvicorn openai fastembed redis pydantic
 ### 2. Configure Environment (`.env`)
 ```env
 GROQ_API_KEY="your-groq-api-key"
-DEFAULT_MODEL="openai/gpt-oss-20b"
+DEFAULT_MODEL="llama-3.1-8b-instant"
 REDIS_URL="rediss://default:password@endpoint.upstash.io:6379"
 ```
 
@@ -80,10 +80,9 @@ Interactive API documentation available at `http://127.0.0.1:8000/docs`.
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 - **`POST /api/v1/chat`**: Query endpoint with automatic semantic caching.
 - **`GET /api/v1/cache/stats`**: Live metrics (hits, misses, hit rate %, L1 RAM count).
 - **`DELETE /api/v1/cache`**: Flush local and cloud cache.
 - **`GET /api/v1/health`**: Health status check.
-
